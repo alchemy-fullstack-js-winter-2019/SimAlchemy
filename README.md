@@ -2,7 +2,7 @@
 
 **Authors**: [Kate Dameron](https://github.com/Katedam), [Paige Gorry](https://github.com/paigeegorry), [Teonna Zaragoza](https://github.com/tmzaragoza), [Cari Palazzolo](https://github.com/caripizza)
 
-**sim-alchemy.herokuapp.com**
+**[sim-alchemy.herokuapp.com](https://sim-alchemy.herokuapp.com/)**
 
 ## Overview
 In this back-end app, we built a choose your own code school adventure for the command line. Teachers can log in and post up to 5 assignments to try and better their cohort's grades; includes app-wide unit and end-to-end test coverage.
@@ -11,6 +11,16 @@ In this back-end app, we built a choose your own code school adventure for the c
 
 ## Technologies used
 Node.js, [MongoDB](https://www.mongodb.com/what-is-mongodb), [Express](https://www.npmjs.com/package/express), [Jest](https://www.npmjs.com/package/jest), [SuperTest](https://www.npmjs.com/package/supertest), [nodemon](https://www.npmjs.com/package/nodemon), [dotenv](https://www.npmjs.com/package/dotenv), [Mongoose](https://www.npmjs.com/package/mongoose), [morgan](https://www.npmjs.com/package/morgan), [SuperAgent](https://www.npmjs.com/package/superagent), [inquirer](https://www.npmjs.com/package/inquirer), [bcrypt.js](https://www.npmjs.com/package/bcryptjs), [figlet](https://www.npmjs.com/package/figlet), [jsonwebtoken](https://www.npmjs.com/package/jsonwebtoken), [Chance](https://www.npmjs.com/package/chance), [chalk](https://www.npmjs.com/package/chalk), [gradient-string](https://www.npmjs.com/package/gradient-string)
+
+## Application Structure
+    .
+    ├── client                   # Play CLI game
+    ├── lib                      # Application, routes, models, home page 
+    ├── test                     # Unit and E2E tests
+    ├── seed.js                  # Load seed data to MongoDB
+    ├── server.js                # Run Express server
+    ├── LICENSE
+    └── README.md
 
 ## Getting Started
 1. Clone and download [GitHub repo](https://github.com/team-sailboat/SimAlchemy)
